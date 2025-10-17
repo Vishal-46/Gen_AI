@@ -1,1 +1,21 @@
-.envsk-proj-jsVIv9tj0VKv7Piaw3a0s5lbyjUsYRUFgExC_7GmwnAMblfsQ__WeVRKLGvFzpqGXIMq87OqloT3BlbkFJ4Ifb8j5Fqmq7o7IGvi_DcXuaiQWDXr4V6q5yQAnWhxJx7EwZGKoy5wWHUwEFi1-UHRjMO4t0wA
+# Ignore environment files and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+vvenv/
+
+# Streamlit cache/config
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
